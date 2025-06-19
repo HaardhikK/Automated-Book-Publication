@@ -1,0 +1,100 @@
+{
+  "flow_id": "26381671",
+  "started_at": "2025-06-18T18:42:31.999150",
+  "base_url": "https://en.wikisource.org/wiki/The_Gates_of_Morning/Book_1/Chapter_{}",
+  "chapters_to_process": [
+    2,
+    3
+  ],
+  "steps": [
+    {
+      "step_id": 1,
+      "step_name": "Web Scraping",
+      "chapter_number": 2,
+      "status": "started",
+      "timestamp": "2025-06-18T18:42:32.003152",
+      "input_file": null,
+      "output_file": null,
+      "metadata": {},
+      "error": null
+    },
+    {
+      "step_id": 2,
+      "step_name": "Web Scraping",
+      "chapter_number": 2,
+      "status": "success",
+      "timestamp": "2025-06-18T18:42:45.514373",
+      "input_file": null,
+      "output_file": "chapters\\chapter_1.txt",
+      "metadata": {
+        "content_length": 18094,
+        "screenshot_file": "chapters\\chapter_1.png",
+        "url_scraped": "https://en.wikisource.org/wiki/The_Gates_of_Morning/Book_1/Chapter_2"
+      },
+      "error": null
+    },
+    {
+      "step_id": 3,
+      "step_name": "AI Writing",
+      "chapter_number": 2,
+      "status": "started",
+      "timestamp": "2025-06-18T18:42:45.516413",
+      "input_file": null,
+      "output_file": null,
+      "metadata": {},
+      "error": null
+    },
+    {
+      "step_id": 4,
+      "step_name": "AI Writing",
+      "chapter_number": 2,
+      "status": "failed",
+      "timestamp": "2025-06-18T18:42:46.150660",
+      "input_file": null,
+      "output_file": null,
+      "metadata": {},
+      "error": "Chapter 2 file not found: chapters\\chapter_2.txt"
+    },
+    {
+      "step_id": 5,
+      "step_name": "Web Scraping",
+      "chapter_number": 3,
+      "status": "started",
+      "timestamp": "2025-06-18T18:42:46.154637",
+      "input_file": null,
+      "output_file": null,
+      "metadata": {},
+      "error": null
+    },
+    {
+      "step_id": 6,
+      "step_name": "Web Scraping",
+      "chapter_number": 3,
+      "status": "failed",
+      "timestamp": "2025-06-18T18:42:58.298174",
+      "input_file": null,
+      "output_file": null,
+      "metadata": {},
+      "error": "Page.wait_for_selector: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"div#mw-content-text\") to be visible\n"
+    }
+  ],
+  "status": "completed",
+  "completed_chapters": [],
+  "failed_chapters": [
+    {
+      "chapter": 2,
+      "error": "AI Writing failed: Chapter 2 file not found: chapters\\chapter_2.txt"
+    },
+    {
+      "chapter": 3,
+      "error": "Scraping failed: Page.wait_for_selector: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"div#mw-content-text\") to be visible\n"
+    }
+  ],
+  "completed_at": "2025-06-18T18:42:58.304161",
+  "summary": {
+    "total_chapters": 2,
+    "successful_chapters": 0,
+    "failed_chapters": 2,
+    "success_rate": "0.0%"
+  }
+}
