@@ -21,8 +21,6 @@ An end-to-end modular framework that automates the lifecycle of publishing rewri
   * If screenshot fails, logs the issue and continues with content processing.
 * Logs output path, content length, and errors for traceability.
 
----
-
 ### 🔹 Part 2: **AI Writer**
 
 **Script:** `part2_ai_writer.py`
@@ -44,8 +42,6 @@ An end-to-end modular framework that automates the lifecycle of publishing rewri
   * Detects and alerts if the input file is missing or empty.
   * Prevents continuation if no valid output is generated.
 
----
-
 ### 🔹 Part 3: **AI Reviewer**
 
 **Script:** `part3_ai_reviewer.py`
@@ -58,8 +54,6 @@ An end-to-end modular framework that automates the lifecycle of publishing rewri
 * Strips out any unwanted model commentary or internal tags (`<think>` etc.).
 * Uses a lower temperature for **maximum consistency and editing reliability**.
 * Stores a rich metadata file with all review details, version, length changes, and quality metrics.
-
----
 
 ### 🔹 Part 4: **Human-in-the-Loop Editing UI**
 
@@ -76,8 +70,6 @@ An end-to-end modular framework that automates the lifecycle of publishing rewri
 * Tracks **version lineage**: saves source version, editor name, and timestamp.
 * Provides a fallback diff view (text-based) in case rich HTML rendering fails.
 * Enforces version control: avoids accidental overwrite of earlier edits.
-
----
 
 ### 🔹 Part 5: **Agentic Flow Orchestration**
 
@@ -96,8 +88,6 @@ An end-to-end modular framework that automates the lifecycle of publishing rewri
 
   * Skips a chapter’s next stage if the current one fails.
   * Logs detailed errors and continues with other chapters.
-
----
 
 ### 🔹 Part 6: **Versioning + RL-Driven Semantic Search**
 
@@ -123,12 +113,4 @@ An end-to-end modular framework that automates the lifecycle of publishing rewri
 
 ---
 
-## 🧬 Unique Strengths
 
-✅ **Human-AI Synergy:** Seamlessly integrates LLM rewriting with optional human enhancement
-✅ **Robust Logging:** Every module independently logs errors, versions, and metadata
-✅ **Version Traceability:** Tracks lineage across all stages with unique IDs
-✅ **Resilient Design:** Built-in fallbacks ensure continuity across failures
-✅ **Feedback Loops:** RL Search adapts to user behavior, not just static similarity
-✅ **Modular + Extensible:** Swap out models, URLs, or even versioning backends with minimal changes
----
