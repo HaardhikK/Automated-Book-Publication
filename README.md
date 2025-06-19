@@ -4,9 +4,9 @@ An end-to-end modular framework that automates the lifecycle of publishing rewri
 
 ---
 ## 🎬 Working Preview
-
+* AI Automation Workflow
 ![AI Automation Workflow](output/Automation.gif)
-
+* Version Control & Semantic Search
 ![Version Control & Semantic Search](output/versionControl.gif)
 ---
 ## 🧠 Core Modules & Design Highlights
