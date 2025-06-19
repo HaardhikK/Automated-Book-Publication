@@ -1,0 +1,22 @@
+{
+  "model": "deepseek-r1-distill-llama-70b",
+  "api_provider": "Groq",
+  "source_file": "chapters\\chapter_1_ai_v1.txt",
+  "output_file": "chapters\\chapter_1_reviewed_v1.txt",
+  "prompt_file": "prompts\\reviewer_prompt.txt",
+  "timestamp": "2025-06-18T11:44:15.797202",
+  "prompt_summary": "Improve flow, grammar, tone without changing meaning",
+  "ai_length": 9359,
+  "reviewed_length": 7934,
+  "length_change": -1425,
+  "api_usage": {
+    "prompt_tokens": 2308,
+    "completion_tokens": 2357,
+    "total_tokens": 4665
+  },
+  "model_settings": {
+    "temperature": 0.3,
+    "max_tokens": 4000,
+    "top_p": 0.95
+  }
+}
