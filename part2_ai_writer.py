@@ -1,9 +1,3 @@
-#!/usr/bin/env python3
-"""
-Part 2: AI Writer
-Reads chapter text and rewrites it using Groq LLM API
-"""
-
 import json
 import os
 import logging
