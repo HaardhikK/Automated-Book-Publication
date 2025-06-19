@@ -5,21 +5,15 @@ An end-to-end modular framework that automates the lifecycle of publishing rewri
 ---
 <div align="center">
 
-<table>
-  <tr>
-    <td align="center">
-      <b>AI Automation Workflow</b><br>
-      <img src="output/Automation.gif" width="450"/>
-    </td>
-    <td align="center">
-      <b>Version Control & Semantic Search</b><br>
-      <img src="output/versionControl.gif" width="450"/>
-    </td>
-  </tr>
-</table>
+<b>AI Automation Workflow</b><br><br>
+<img src="output/Automation.gif" width="85%"/>
+
+
+<b>Version Control & Semantic Search</b><br><br>
+<img src="output/versionControl.gif" width="85%"/>
 
 </div>
----
+
 
 ## 🧠 Core Modules & Design Highlights
 
