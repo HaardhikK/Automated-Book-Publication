@@ -6,8 +6,6 @@ An end-to-end modular framework that automates the lifecycle of publishing rewri
 
 ## 🧠 Core Modules & Design Highlights
 
----
-
 ### 🔹 Part 1: **Wikisource Scraper**
 
 **Script:** `part1_scraper.py`
@@ -133,4 +131,4 @@ An end-to-end modular framework that automates the lifecycle of publishing rewri
 ✅ **Resilient Design:** Built-in fallbacks ensure continuity across failures
 ✅ **Feedback Loops:** RL Search adapts to user behavior, not just static similarity
 ✅ **Modular + Extensible:** Swap out models, URLs, or even versioning backends with minimal changes
-
+---
