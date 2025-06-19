@@ -3,7 +3,12 @@
 An end-to-end modular framework that automates the lifecycle of publishing rewritten book chapters—from scraping and rewriting to human editing, versioning, and intelligent search.
 
 ---
+## 🎬 Working Preview
 
+![AI Automation Workflow](output/Automation.gif)
+
+![Version Control & Semantic Search](output/versionControl.gif)
+---
 ## 🧠 Core Modules & Design Highlights
 
 ### 🔹 Part 1: **Wikisource Scraper**
